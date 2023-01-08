@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int a,b,c,d,e,M;
+	    cin>>a>>b>>c>>d>>M;
+	    int res=b-a;
+	    if(res>=c*M&&res<=d*M)
+	    cout<<"1"<<endl;
+	    else
+	    cout<<"0\n";
+	}
+	return 0;
+}
